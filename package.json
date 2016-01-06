@@ -1,5 +1,5 @@
 {
-  "name": "video.js",
+  "name": "video.js-less",
   "description": "An HTML5 and Flash video player with a common API and skin for both.",
   "version": "4.12.15",
   "copyright": "Copyright 2014 Brightcove, Inc. https://github.com/videojs/video.js/blob/master/LICENSE",
@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/videojs/video.js.git"
+    "url": "https://github.com/van-nguyen/video.js.git"
   },
   "main": "./dist/video-js/video.js",
   "dependencies": {
     "videojs-swf": "4.7.5",
-    "vtt.js": "git+https://github.com/gkatsev/vtt.js.git#vjs-v0.12.1"
+    "videojs-vtt.js": "^0.12.1"
   },
   "devDependencies": {
     "calcdeps": "~0.1.7",

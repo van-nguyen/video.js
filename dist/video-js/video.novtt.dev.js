@@ -6851,7 +6851,7 @@ vjs.MediaTechController.prototype.emulateTextTracks = function() {
 
   if (!window['WebVTT']) {
     script = document.createElement('script');
-    script.src = player.options()['vtt.js'] || '../node_modules/vtt.js/dist/vtt.js';
+    script.src = player.options()['vtt.js'] || '../node_modules/videojs-vtt.js/dist/vtt.js';
     player.el().appendChild(script);
     window['WebVTT'] = true;
   }

@@ -7,8 +7,8 @@ module.exports = function(grunt) {
     grunt.file.copy('build/files/minified.video.js', 'build/files/minified.video.novtt.js');
 
     // read in vttjs files
-    vttjs = grunt.file.read('node_modules/vtt.js/dist/vtt.js');
-    vttjsMin = grunt.file.read('node_modules/vtt.js/dist/vtt.min.js');
+    vttjs = grunt.file.read('node_modules/videojs-vtt.js/dist/vtt.js');
+    vttjsMin = grunt.file.read('node_modules/videojs-vtt.js/dist/vtt.min.js');
     // read in videojs files
     vjs = grunt.file.read('build/files/combined.video.js');
     vjsMin = grunt.file.read('build/files/minified.video.js');
